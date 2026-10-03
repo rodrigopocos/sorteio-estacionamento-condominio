@@ -1,0 +1,36 @@
+# OS
+Thumbs.db
+Desktop.ini
+.DS_Store
+
+# Visual Studio / Rider
+.vs/
+*.user
+*.suo
+*.userosscache
+.idea/
+
+# .NET
+bin/
+obj/
+TestResults/
+*.nupkg
+publish/
+
+# SQLite local
+*.db
+*.db-shm
+*.db-wal
+
+# Node / Next
+node_modules/
+.next/
+out/
+*.tsbuildinfo
+
+# Env local (manter .env de exemplo/dev se for só URL pública)
+.env.local
+.env*.local
+
+# Logs
+*.log

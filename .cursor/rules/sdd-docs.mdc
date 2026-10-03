@@ -1,0 +1,11 @@
+---
+description: Fluxo de documentação SDD por funcionalidade
+alwaysApply: true
+---
+
+# SDD por pasta em docs/
+
+- Nova funcionalidade: criar `docs/<nome>/pre-spec.md` antes de código.
+- Agente pode ajudar a redigir `spec.md` a partir da pre-spec; não inventar escopo fora da pre-spec.
+- Não implementar feature sem `spec.md` aprovada (critérios EARS + checklist).
+- plan.md, se existir, fica na mesma pasta da funcionalidade.
